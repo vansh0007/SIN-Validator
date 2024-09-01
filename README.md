@@ -48,7 +48,7 @@ The built files will be in the `dist` directory.
    - It must be exactly 9 digits long.
    - It must pass the Luhn algorithm check and checksum check.
 
-2. The validator accepts input with non-digit characters (like spaces or dashes) but removes them before validation.
+ 2. Shows Error if non digit character is entered.  
 
 3. The web interface provides real-time feedback as the user types or clicks the validate button.
 
